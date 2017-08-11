@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cstdlib>
+
 int dice(int bet_point, int point);int bankrupt();
+
 int main(){
   printf("************\n");
   printf("| MBY LAND |\n");
@@ -49,6 +51,7 @@ int main(){
  }
   return 0;
 }
+
 int dice(int bet_point, int point)
 {
   printf("1~6까지 베팅할 숫자를 입력해 주세요.");
@@ -69,6 +72,7 @@ int dice(int bet_point, int point)
  }
   return final_point;
 }
+
 int bankrupt()
 {
   printf("파아아아사아아안!\n");
