@@ -6,7 +6,7 @@ int dice(int bet_point, int point);int bankrupt();
 int main(){
   printf("************\n");
   printf(" 어서오세요 \n");
-  print("환상의 세계 YIt가 당신을 환영합니다");
+  printf("환상의 세계 YIT가 당신을 환영합니다");
   printf("************\n");
   int a;
   using namespace std;
@@ -84,6 +84,6 @@ int dice(int bet_point, int point)
   {
   printf("파산입니다\n");
   printf("파산을 축하드립니다! \n");
-  printf("아쉽네요 조금만 더 했으면 저를 볼 수 있었을 텐데요......")
+  printf("아쉽네요 조금만 더 했으면 저를 볼 수 있었을 텐데요......");
   return 0;
   }
